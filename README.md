@@ -1,5 +1,4 @@
-![kaliko](img/imgbin_calico-cat.png )
-<img src="img/imgbin_calico-cat.png" width=50% height=50%>
+<img src="img/imgbin_calico-cat.png" width=70% height=70%>
 <!--- https://imgbin.com/png/teExm7p4/calico-cat-%E9%A6%99%E7%AE%B1%E5%BA%A7%E3%82%8A-illustrator-png --->
 # kaliko
 A DIY trial CKA
