@@ -20,9 +20,19 @@ mkdir /tmp/kaliko
 ```
 
 ### Question 1
-Install kubernetes 1.23 . Once done execute the following command to submit your answer
+Install kubernetes 1.23 and use Flannel as the CNI. Use the following Flannel deployment:- 
+`https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml`
+
+Ensure all nodes are ready and all pods are running. Execute the following command to submit your answer
 ```
 kubectl get nodes > /tmp/kaliko/question01
+```
+
+### Question 2
+Create a pod named 'mynginx' in a namespace named 'production'. Use `nginx:alpine` as the image of the pod.
+Ensure all nodes are ready and all pods are running. Execute the following command to submit your answer
+```
+kubectl get pods -nproduction > /tmp/kaliko/question02
 ```
 
 
