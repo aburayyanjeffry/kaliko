@@ -20,7 +20,7 @@ mkdir /tmp/kaliko
 ```
 
 ### Question 1
-Install kubernetes 1.23 and use Flannel as the CNI. Use the following Flannel deployment:- <br>
+Use kubeadm to install kubernetes 1.23 and use Flannel as the CNI. Use the following Flannel deployment:- <br>
 `https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml`
 
 Ensure all nodes are ready and all pods are running. Execute the following command to submit your answer
