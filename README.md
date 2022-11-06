@@ -10,4 +10,19 @@ Event though kaliko is free, your AWS account is not. Monitor your usage so that
 1. AWS Free tier account
 
 
+## Provision the node
+Use the `EC2 Instances provisioning` and `Installing the container runtime` of this [blog](https://www.endpointdev.com/blog/2022/10/kubernetes-from-the-ground-up-with-aws-ec2/) to provision the controlplane and the worker node
+
+## The exam.
+Login to control plane and to the following questions and execute the following command to prepare the exam environment:
+```
+mkdir /tmp/kaliko
+```
+
+### Question 1
+Install kubernetes 1.23 . Once done execute the following command to submit your answer
+```
+kubectl get nodes > /tmp/kaliko/question01
+```
+
 
